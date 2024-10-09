@@ -5,6 +5,7 @@ public class LibraryApp {
         // Using the factory to create physical books
         library.addBook(BookFactory.createBook("The Great Gatsby", "F. Scott Fitzgerald", "physical"));
         library.addBook(BookFactory.createBook("Sapiens", "Yuval Noah Harari", "physical"));
+//        library.addBook(BookFactory.createBook("error book", "error", "lydbog"));
 
         // Using an adapter to add an external eBook
         ExternalEBook externalEBook = new ExternalEBook("EBook Title", "EBook Author");

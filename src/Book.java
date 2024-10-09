@@ -11,6 +11,8 @@ public abstract class Book {
 
     @Override
     public String toString() {
-        return "Title: " + title + ", Author: " + author + ", Type: " + type;
+        return "Title: " + title + "\n" +
+                "Author: " + author + "\n" +
+                "Type: " + type + "\n";
     }
 }
